@@ -1,0 +1,26 @@
+img {
+    width: 200px;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    text-decoration-color: white;
+}
+
+body{
+    color: black;
+}
+
+nav {
+    background-color: green;
+    align: center;
+
+}
+
+footer {
+    background-color: green;
+    align: center;
+    text-align: center;
+    text-decoration-color: white;
+}
