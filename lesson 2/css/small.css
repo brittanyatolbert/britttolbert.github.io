@@ -6,3 +6,8 @@ body {
 img {
     width: 300px;
 }
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
