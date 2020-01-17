@@ -36,6 +36,7 @@ header, footer, footer a {
 header img {
     width: 200px; 
     height: auto;
+    border-radius: 20%;
 }
 
 footer {
