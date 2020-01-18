@@ -1,3 +1,7 @@
+h1{
+    text-align: Center;
+}
+
 body {
     background-color: darkgray;
     font-size: 8pt;
@@ -6,6 +10,7 @@ body {
 
 img {
     width: 200px;
+    border-radius: 5%;
 }
 
 #grid {
