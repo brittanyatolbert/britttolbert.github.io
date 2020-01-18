@@ -1,7 +1,12 @@
 h1{
     font-family: 'Montserrat', sans-serif;
-    text-align: Center;
+    text-align: center;
     font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 15px;
 }
 
 body {
