@@ -1,9 +1,11 @@
+
+
+
 h1, h2{
     text-align: Center;
 }
 
 body {
-    background-color: darkgray;
     font-size: 6pt;
     text-align: left;
 }
@@ -11,6 +13,7 @@ body {
 img {
     width: 200px;
 }
+
 
 #grid {
     display: grid;
