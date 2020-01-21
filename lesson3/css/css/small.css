@@ -8,5 +8,5 @@ ul {
 .flex {
     display: flex;
     justify-content: space-evenly;
-    flex-direction: vertical;
+    flex-direction: column;
 }
