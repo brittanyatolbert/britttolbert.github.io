@@ -5,3 +5,8 @@ ul li a{
 ul {
     list-style: none;
 }
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: vertical;
+}
