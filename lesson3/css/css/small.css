@@ -1,12 +1,12 @@
 nav ul li a{
     padding: 20px;
     text-decoration: none;
-
 }
 
 nav {
     line-height: 40px;
-}
+    text-align: center;
+
 ul {
     list-style: none;
 }
