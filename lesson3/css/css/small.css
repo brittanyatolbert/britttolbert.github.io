@@ -6,10 +6,12 @@ nav ul li a{
 nav {
     line-height: 40px;
     text-align: center;
+}
 
 ul {
     list-style: none;
 }
+
 .flex {
     display: flex;
     justify-content: space-evenly;
