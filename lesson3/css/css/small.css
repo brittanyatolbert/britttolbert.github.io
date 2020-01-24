@@ -23,7 +23,11 @@ img {
     width: 600px;
 }
 
-h2 {
+h1 {
     font-family: 'League Script', cursive;
     font-size: 32px;
+}
+
+h2 {
+    font-size: 22px;
 }
