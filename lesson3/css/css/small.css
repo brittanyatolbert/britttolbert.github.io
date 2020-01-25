@@ -1,4 +1,4 @@
-@media only screen and (min-width: 10.5em) {
+
 section{
     background-color: #e0f7e7;
     margin: 10em;
@@ -62,7 +62,7 @@ h3, h4 {
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 9px;
     padding-right: 3em;
     padding-left: 3em;
     padding-bottom: 3em;
@@ -88,6 +88,4 @@ p {
     margin-left: 27em;
     padding-top: 2em;
     margin-bottom: -9em;
-}
-
 }
