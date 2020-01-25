@@ -35,6 +35,7 @@ img {
 }
 
 h1 {
+    margin-left: 3em;
     font-family: 'League Script', cursive;
     font-size: 70px;
     text-align: center;
@@ -79,4 +80,11 @@ p {
     background-color: #324438;
     text-decoration-color: #e0f7e7;
     font-size: 9px;
+}
+
+.logo{
+    width: 130px;
+    margin-left: 27em;
+    padding-top: 2em;
+    margin-bottom: -9em;
 }
