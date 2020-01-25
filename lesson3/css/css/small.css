@@ -1,3 +1,4 @@
+@media only screen and (min-width: 10.5em) {
 section{
     background-color: #e0f7e7;
     margin: 10em;
@@ -87,4 +88,6 @@ p {
     margin-left: 27em;
     padding-top: 2em;
     margin-bottom: -9em;
+}
+
 }
