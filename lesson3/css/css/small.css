@@ -73,6 +73,6 @@ p {
 
 .root{
     text-align: center;
-    border-top: 4px solid #88bb99;
-    border-bottom: 4px solid #88bb99;
+    background-color: #324438;
+    text-decoration-color: #e0f7e7;
 }
