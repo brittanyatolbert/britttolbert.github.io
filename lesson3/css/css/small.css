@@ -10,8 +10,8 @@ nav ul li a{
 nav {
     line-height: 40px;
     text-align: center;
-    border-top: 2px solid #88bb99;
-    border-bottom: 2px solid #88bb99;
+    border-top: 4px solid #88bb99;
+    border-bottom: 4px solid #88bb99;
 }
 
 ul {
@@ -30,12 +30,15 @@ img {
 
 h1 {
     font-family: 'League Script', cursive;
-    font-size: 60px;
+    font-size: 70px;
+    text-align: center;
 }
 
 h2 {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: -5em;
 }
 
 h3, h4 {
