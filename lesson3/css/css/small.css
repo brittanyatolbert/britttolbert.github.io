@@ -72,7 +72,10 @@ p {
 }
 
 .root{
+    padding-top: 1em;
+    padding-bottom: 1em;
     text-align: center;
+    color: white;
     background-color: #324438;
     text-decoration-color: #e0f7e7;
 }
