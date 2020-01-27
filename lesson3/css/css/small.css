@@ -1,7 +1,7 @@
 
 section{
     background-color: #e0f7e7;
-    margin: 10em;
+    margin: 1em;
 }
 
 nav ul li a{
@@ -62,7 +62,7 @@ h3, h4 {
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 9px;
+    font-size: 4px;
     padding-right: 3em;
     padding-left: 3em;
     padding-bottom: 3em;
