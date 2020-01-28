@@ -15,3 +15,8 @@ ul {
 ul li a {
     text-decoration: none;
 }
+
+main{
+    margin-right:3em;
+    margin-left: 3em;
+}
