@@ -34,7 +34,7 @@ ul {
 h1 {
     margin-left: 3em;
     font-family: 'League Script', cursive;
-    font-size: 70px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 0.5em;
     
@@ -80,10 +80,10 @@ p {
 }
 
 .logo{
-    width: 130px;
+    width: 110px;
     margin-left: 1em;
-    padding-top: 2em;
-    padding-right:20px;
-    margin-bottom: 10px;
+    padding-top: 1em;
+    padding-right:1em;
+    margin-bottom: -5em;
 }
 
