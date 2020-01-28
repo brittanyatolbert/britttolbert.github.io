@@ -1,13 +1,14 @@
 
 section{
     background-color: #e0f7e7;
+    margin: 1em;
 }
 
 nav ul li a{
     padding: 20px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     color: #324438;
     
 }
@@ -17,7 +18,7 @@ nav {
     text-align: center;
     border-top: 4px solid #88bb99;
     border-bottom: 4px solid #88bb99;
-    margin-bottom: -7em;
+    margin-bottom: 1em;
 }
 
 ul {
@@ -47,7 +48,7 @@ h2 {
 }
 
 h3, h4 {
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'League Script', sans-serif;
     padding-top: 1em;
     padding-right: 3em;
