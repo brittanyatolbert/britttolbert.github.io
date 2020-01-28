@@ -1,3 +1,13 @@
+header{
+
+}
+
+/* sucks the header up to the very top */
+body{
+    margin:0;
+    padding: 0;
+}
+
 ul {
     list-style:none;
 }
