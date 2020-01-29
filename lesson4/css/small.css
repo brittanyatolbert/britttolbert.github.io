@@ -56,3 +56,26 @@ p {
     padding-left: 3em;
     padding-bottom: 3em;
 }
+
+.center{
+    display: block;
+    margin: auto;
+}
+
+.root{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    color: white;
+    background-color: #324438;
+    text-decoration-color: #e0f7e7;
+    font-size: 9px;
+}
+
+.logo{
+    width: 110px;
+    margin-left: 1em;
+    padding-top: 1em;
+    padding-right:1em;
+    margin-bottom: -5em;
+}
