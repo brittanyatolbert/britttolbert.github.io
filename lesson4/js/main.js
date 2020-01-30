@@ -47,8 +47,7 @@ fullDate += ' ' + months[currentDate.getMonth()];
 
 /* get year*/
 let year = currentDate.getFullYear();
+fullDate += ' ' + year;
 
 /* full date*/
-
-console.log(year);
-console.log(currentDate);
+document.querySelector('#current-date').textContent = fullDate;
