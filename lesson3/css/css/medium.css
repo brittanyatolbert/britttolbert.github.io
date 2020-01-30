@@ -14,21 +14,14 @@ nav ul li a{
     padding: 10px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
     color: #324438;
     
 }
 
-ul {
-    list-style: none;
-}
-
 
 h1 {
-    margin-left: 3em;
-    font-family: 'League Script', cursive;
     font-size: 50px;
-    margin-bottom: 0.5em;
+    margin-top: 0pt;
     
 }
 
@@ -71,11 +64,9 @@ p {
     font-size: 9px;
 }
 
-.logo{
-    width: 130px;
-    margin-left: 1em;
-    padding-top: 1em;
-    margin-bottom: -7em;
+
+header{
+    flex-direction: row;
 }
 
 }

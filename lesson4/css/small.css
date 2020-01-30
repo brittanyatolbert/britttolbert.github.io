@@ -10,8 +10,22 @@ ul {
     list-style:none;
 }
 
-ul li a {
+
+nav ul li a{
+    padding: 20px;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #324438;
+    
+}
+
+nav {
+    line-height: 40px;
+    text-align: center;
+    border-top: 4px solid #88bb99;
+    border-bottom: 4px solid #88bb99;
+    margin-bottom: 1em;
 }
 
 main{
@@ -22,14 +36,14 @@ main{
 section{
     background-color: #e0f7e7;
     margin: 1em;
+    padding: .5em;
 }
 
 h1 {
-    margin-left: 3em;
     font-family: 'League Script', cursive;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.2em;
     
 }
 
@@ -73,9 +87,9 @@ p {
 }
 
 .logo{
-    width: 110px;
+    width: 75px;
     margin-left: 1em;
     padding-top: 1em;
-    padding-right:1em;
-    margin-bottom: -5em;
+    display: block;
+    margin: auto;
 }
