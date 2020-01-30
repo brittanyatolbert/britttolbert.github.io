@@ -7,13 +7,13 @@ let fullDate;
 /* day of week*/
 
 let daysOfWeek = [
-    'Sunday',
-    'Monday',
-    'Tuesday',
-    'Wednesday',
-    'Thursday',
-    'Friday',
-    'Saturday'
+    'SUNDAY',
+    'MONDAY',
+    'TUESDAY',
+    'WEDNESDAY',
+    'THURSDAY',
+    'FRIDAY',
+    'SATURDAY'
 ];
 
 let dayOfWeek = currentDate.getDay();
@@ -23,23 +23,23 @@ fullDate = daysOfWeek[dayOfWeek];
 /*day of month*/
 
 let dayOfMonth = currentDate.getDate();
-fullDate += ',' + dayOfMonth;
+fullDate += ', ' + dayOfMonth;
 
 /*month*/
 
 let months = [
-    'January',
-    'Febraury',
-    "March",
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    "October",
-    'November',
-    'December'
+    'JANUARY',
+    'FEBRAURY',
+    "MARCH",
+    'APRIL',
+    'MAY',
+    'JUNE',
+    'JULY',
+    'AUGUS',
+    'SEPTEMBER',
+    "OCTOBER",
+    'NOVEMBER',
+    'DECEMBER'
 ]
 
 fullDate += ' ' + months[currentDate.getMonth()];
