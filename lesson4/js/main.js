@@ -25,8 +25,25 @@ fullDate = daysOfWeek[dayOfWeek];
 let dayOfMonth = currentDate.getDate();
 fullDate += ',' + dayOfMonth;
 
-
 /*month*/
+
+let months = [
+    'January',
+    'Febraury',
+    "March",
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    "October",
+    'November',
+    'December'
+]
+
+fullDate += ' ' + months[currentDate.getMonth()];
+
 
 /* get year*/
 let year = currentDate.getFullYear();
