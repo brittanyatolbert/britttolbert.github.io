@@ -20,11 +20,11 @@ let dayOfWeek = currentDate.getDay();
 
 fullDate = daysOfWeek[dayOfWeek];
 
-console.log(dayOfWeek);
-console.log(fullDate);
-
-
 /*day of month*/
+
+let dayOfMonth = currentDate.getDate();
+fullDate += ',' + dayOfMonth;
+
 
 /*month*/
 
