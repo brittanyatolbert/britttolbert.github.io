@@ -1,0 +1,72 @@
+@media only screen and (min-width: 32.5em) {
+
+    .flex {
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    
+    section{
+        background-color: #e0f7e7;
+        margin: 5em;
+    }
+    
+    nav ul li a{
+        padding: 10px;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: #324438;
+        
+    }
+    
+    
+    h1 {
+        font-size: 50px;
+        margin-top: 0pt;
+        
+    }
+    
+    h2 {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    
+    h3, h4 {
+        font-size: 20px;
+        font-family: 'League Script', sans-serif;
+        padding-top: 1em;
+        padding-right: 3em;
+        padding-left: 1.5em;
+        padding-bottom: .5em;
+        border-bottom: 4px solid white;
+    }
+    
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        padding-right: 3em;
+        padding-left: 3em;
+        padding-bottom: 3em;
+    }
+    
+    .center{
+        display: block;
+        margin: auto;
+    }
+    
+    .root{
+        padding-top: 1em;
+        padding-bottom: 1em;
+        text-align: center;
+        color: white;
+        background-color: #324438;
+        text-decoration-color: #e0f7e7;
+        font-size: 9px;
+    }
+    
+    
+    header{
+        flex-direction: row;
+    }
+    
+    }
