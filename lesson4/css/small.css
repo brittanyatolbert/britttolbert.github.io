@@ -7,6 +7,13 @@
         
     }
     
+    .logo{
+        max-width: 70px;
+        width: 100%;
+        margin : 20px;
+        height: auto;
+    }
+    
     section{
         background-color: #e0f7e7;
         margin: 1em;
