@@ -22,6 +22,7 @@
     
     nav a{
         padding: 15px;
+        display: block;
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
         font-size: 12px;
@@ -102,5 +103,23 @@
         width: 100%;
         margin : 20px;
         height: auto;
+    }
+
+    .navigation {
+        list-style: none;
+        padding: 0;
+    }
+    .navigation li:first-child {
+        display: block;
+    }
+    .navigation li {
+        display: none;
+    }
+    
+    /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+      <ul class="navigation responsive">
+      */
+    .responsive li {
+        display: block;
     }
     
