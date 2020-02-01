@@ -4,7 +4,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
     
     .logo{
@@ -21,7 +20,7 @@
     }
     
     nav a{
-        padding: 15px;
+        padding: 10px;
         display: block;
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
@@ -36,11 +35,11 @@
     }
     
     nav {
-        line-height: 40px;
+        line-height: 20px;
         text-align: center;
         border-top: 4px solid #88bb99;
         border-bottom: 4px solid #88bb99;
-        margin-bottom: 1em;
+        margin-bottom: 3em;
     }
     
     
@@ -53,10 +52,9 @@
     
     h1 {
         font-family: 'League Script', cursive;
-        font-size: 30px;
+        font-size: 40px;
         text-align: center;
         margin: 0px 20px;    
-        display: inline-block;
         
     }
     h2 {
@@ -73,6 +71,12 @@
         padding-left: 1.5em;
         padding-bottom: .5em;
         border-bottom: 4px solid white;
+    }
+
+    h5 {
+        font-family: 'League Script', cursive;
+        text-align: center;
+        font-size: 35px;
     }
     
     p {
