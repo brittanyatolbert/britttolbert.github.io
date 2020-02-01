@@ -19,7 +19,6 @@
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
         color: #324438;
-        
     }
     
     
@@ -47,5 +46,18 @@
     .root{
         font-size: 15px;
     }
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+
     
     }

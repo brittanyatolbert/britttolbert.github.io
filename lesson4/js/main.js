@@ -52,6 +52,8 @@ fullDate += ' ' + year;
 /* full date*/
 document.querySelector('#current-date').textContent = fullDate;
 
+/*hamburger selector*/
+
 const hambutton = document.querySelector(".ham");
 hambutton.addEventListener("click", toggleMenu, false);
 
