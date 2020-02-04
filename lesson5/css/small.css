@@ -133,3 +133,14 @@
         display: block;
     }
     
+    .hero{
+        
+    }
+
+    #weather-summary {
+        position: absolute;
+        top: 25em;
+        left: 10em;
+        color: white;
+    }
+    
