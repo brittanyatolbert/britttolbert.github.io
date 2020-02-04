@@ -119,6 +119,11 @@
     .navigation li {
         display: none;
     }
+
+    .navigation a:hover {
+        color:white;
+        background-color:#324438;
+    }
     
     /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
       <ul class="navigation responsive">
