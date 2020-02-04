@@ -1,0 +1,63 @@
+@media only screen and (min-width: 32.5em) {
+
+    header{
+        flex-direction: row;
+    }
+    
+    .flex {
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    
+    section{
+        background-color: #e0f7e7;
+        margin: 1em;
+    }
+    
+    nav ul li a{
+        padding: 10px;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: #324438;
+    }
+    
+    
+    h1 {
+        font-size: 50px;
+        margin-top: 0pt;
+        
+    }
+    
+    h2 {
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    
+    h3, h4 {
+        font-size: 40px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+    
+    
+    .root{
+        font-size: 15px;
+    }
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+
+    
+    }
