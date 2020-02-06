@@ -1,4 +1,24 @@
-@media only screen and (min-width: 32.5em) {
+
+    @media only screen and (min-width: 40.5em) {
+        #article{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+        }
+    
+        #article-box{
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+    
+        #article img{
+            grid-column: 2/3;
+            display: block;
+            margin: auto;
+        }
+    }
+    
+    @media only screen and (min-width: 32.5em) {
 
     header{
         flex-direction: row;
@@ -9,10 +29,7 @@
         flex-direction: row;
     }
     
-    section{
-        background-color: #e0f7e7;
-        margin: 1em;
-    }
+
     
     nav ul li a{
         padding: 10px;
@@ -80,8 +97,8 @@
     }
 
     #article-image{
-        width: 390px;
-        float: right;
+        max-width: 390px;
+        /* float: right; */
         margin: 0 0 1em 1em;
 
 }
@@ -98,3 +115,5 @@
         
 
     }
+
+
