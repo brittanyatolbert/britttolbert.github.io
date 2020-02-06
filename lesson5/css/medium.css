@@ -28,7 +28,7 @@
     }
     
     h2 {
-        font-size: 12px;
+        font-size: 15px;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
     }
@@ -94,7 +94,12 @@
 }
     #map{
         display:flex;
-        justify-content:space-between
+        justify-content:space-around;
+        justify-content:space-between;
+    }
+
+    iframe {
+        display:block;
     }
 
     }

@@ -167,9 +167,14 @@
     
 }
 
-#map{
+iframe {
     display:none;
-    justify-content:space-between
+}
+
+aside{
+    color: orange;
+    font-size: 12px;
+    text-align: center;
 }
 
     
