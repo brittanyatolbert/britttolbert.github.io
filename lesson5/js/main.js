@@ -75,3 +75,4 @@ document.querySelector('#humidity').innerHTML = '10&percnt;';
  else {
    aside.style.display = 'none';
  }
+ 
