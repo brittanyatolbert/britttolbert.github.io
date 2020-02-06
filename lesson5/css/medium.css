@@ -65,25 +65,18 @@
         width: 100%;
     }
 
+    #weather-summary {
+    
+        padding: 5px 20px 20px 20px; 
+        max-width: 500px;
+        font-size: 16px;
+    }
+    
+
     #five-day-forecast {
         display: table;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    #weather-summary {
-        display: block;
-        position: absolute;
-        top: 40em;
-        left: 4em;
-        color: white;
-        background-color: #324438;
-        padding-top: 0px;
-        padding-right: 30px;
-        padding-left: 30px;
-        padding-bottom: 30px;
-        font-size: 10px;
-        font-family: 'Montserrat', sans-serif;
     }
 
     #article-image{
@@ -101,5 +94,7 @@
     iframe {
         display:block;
     }
+        
+        
 
     }

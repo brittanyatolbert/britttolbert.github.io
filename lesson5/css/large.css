@@ -6,19 +6,21 @@
         padding: 1em;
     }
     
-    #weather-summary {
-        position: absolute;
-        top: 21em;
-        left: 4em;
-        color: white;
-        background-color: #324438;
-        padding-top: 0px;
-        padding-right: 50px;
-        padding-left: 50px;
-        padding-bottom: 50px;
-        font-size: 20px;
-        font-family: 'Montserrat', sans-serif;
+    article{
+        display: grid;
+        grid-template-columns: 5fr 1fr;
+        
     }
+
+    #article-box{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #article img{
+        grid-column: 2/3;
+    }
+    
 
 
 

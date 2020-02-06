@@ -144,15 +144,15 @@
         display: block;
     }
     
-    .hero{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
 
     #weather-summary {
-        display: none;
+        color: white;
+        background-color: #324438;
+        padding: 1px 20px 20px 20px; 
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        max-width: 300px;
+
     }
 
     #five-day-forecast {
@@ -164,7 +164,6 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-    
 }
 
 iframe {
@@ -177,4 +176,10 @@ aside{
     text-align: center;
 }
 
-    
+#hero{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-image: url(/lesson5/image/rainflower.jpg);
+}
