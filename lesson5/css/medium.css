@@ -87,8 +87,14 @@
     }
 
     #article-image{
-        width: 300px;
+        width: 390px;
+        float: right;
+        margin: 0 0 1em 1em;
+
 }
-    
+    #map{
+        display:flex;
+        justify-content:space-between
+    }
 
     }
