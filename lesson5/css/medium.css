@@ -85,6 +85,10 @@
         font-size: 10px;
         font-family: 'Montserrat', sans-serif;
     }
+
+    #article-image{
+        width: 300px;
+}
     
 
     }
