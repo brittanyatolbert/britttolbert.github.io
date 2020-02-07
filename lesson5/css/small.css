@@ -68,15 +68,12 @@
         font-family: 'Montserrat', sans-serif;
         text-align: center;
     }
-    
-    h3, h4 {
-        font-size: 20px;
-        font-family: 'League Script', sans-serif;
-        padding-top: 1em;
-        padding-right: 3em;
-        padding-left: 1.5em;
-        padding-bottom: .5em;
-        border-bottom: 4px solid white;
+
+    h4 {
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: left;
     }
 
     h5 {
@@ -145,10 +142,10 @@
     #weather-summary {
         color: white;
         background-color: #324438;
-        padding: 1px 20px 20px 20px; 
-        font-size: 12px;
+        padding: 1px 0px 20px 20px; 
+        font-size: 15px;
         font-family: 'Montserrat', sans-serif;
-        max-width: 300px;
+        max-width: 100px;
 
     }
 
