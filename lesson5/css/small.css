@@ -142,10 +142,10 @@
     #weather-summary {
         color: white;
         background-color: #324438;
-        padding: 1px 0px 20px 20px; 
+        padding: 1px 20px 20px 20px; 
         font-size: 15px;
         font-family: 'Montserrat', sans-serif;
-        max-width: 100px;
+        max-width: 200px;
 
     }
 
