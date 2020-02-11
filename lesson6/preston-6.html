@@ -42,8 +42,14 @@
     <main>
     <div class=grid>
         <h5>preston, idaho</h5>
-        <section id="hero">
-            <!-- <img src="image/rainflower.jpg" alt="hero" class=hero> -->
+        <!-- <section id="hero"> -->
+        <!-- <img src="image/rainflower.jpg" alt="hero" class=hero> -->
+            <picture>
+                <source srcset="image/hero-image-small.jpg" media="(max-width: 400px)">
+                <source srcset="image/hero-image-medium.jpg" media="(max-width: 800px)">
+                <source srcset="image/hero-image-large.jpg" media="(min-width: 801px)">
+                <img src="image/hero-image-small.jpg" alt="small">
+            </picture>
             <article id="weather-summary">
                 <h4>WEATHER SUMMARY</h4>
                 <div>

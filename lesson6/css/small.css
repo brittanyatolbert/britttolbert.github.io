@@ -128,7 +128,6 @@
         display: none;
     }
 
-
     .navigation a:hover {
         color:white;
         background-color:#324438;
@@ -138,8 +137,8 @@
         display: block;
     }
     
-
-    #weather-summary {
+    #weather-summary { 
+        float: left;
         color: white;
         background-color: #324438;
         padding: 1px 20px 20px 20px; 
@@ -147,6 +146,14 @@
         font-family: 'Montserrat', sans-serif;
         max-width: 200px;
 
+    /* #weather-summary { 
+        color: white;
+        background-color: #324438;
+        padding: 1px 20px 20px 20px; 
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        max-width: 200px;
+        */
     }
 
     #five-day-forecast {
@@ -170,7 +177,7 @@ aside{
     text-align: center;
 }
 
-#hero{
+/* #hero{ 
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -178,6 +185,7 @@ aside{
     background-image: url(/lesson5/image/rainflower.jpg);
     background-size: cover;
 }
+*/
 
 main{
     max-width: 1080px;
