@@ -91,3 +91,12 @@ document.querySelector('#wind-speed').innerHTML = s + 'mph';
    aside.style.display = 'none';
  }
  
+ /*web font loader*/
+
+ WebFont.load({
+  google: {
+    families: [
+       ' '
+    ]
+  }
+});
