@@ -79,6 +79,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+        background-image: url(/image/hero-image-medium.jpg);
     }
 
     #weather-summary {
