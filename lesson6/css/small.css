@@ -151,16 +151,6 @@ p {
     font-family: 'Montserrat', sans-serif;
     max-width: 200px;
 
-    /* #weather-summary { 
-        color: white;
-        background-color: #324438;
-        padding: 1px 20px 20px 20px; 
-        font-size: 15px;
-        font-family: 'Montserrat', sans-serif;
-        max-width: 200px;
-        */
-}
-
 #five-day-forecast {
     display: none;
 }
