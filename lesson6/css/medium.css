@@ -74,12 +74,12 @@
 		display: none;
     }
 
-    .hero{
+    #hero{
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
-        background-image: url(/image/hero-image-medium.jpg);
+        background-image: url('/lesson6/image/hero-image-medium.jpg');
     }
 
     #weather-summary {

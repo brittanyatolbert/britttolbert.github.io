@@ -182,7 +182,7 @@ aside{
     margin-left: auto;
     margin-right: auto;
     height: 300px;    
-    background-image: url(/image/hero-image-small.jpg);
+    background-image: url('/lesson6/image/hero-image-small.jpg');
     background-size: cover;
 }
 
