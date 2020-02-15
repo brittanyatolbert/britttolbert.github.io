@@ -151,6 +151,8 @@ p {
     font-family: 'Montserrat', sans-serif;
     max-width: 200px;
 
+}
+
 #five-day-forecast {
     display: none;
 }
