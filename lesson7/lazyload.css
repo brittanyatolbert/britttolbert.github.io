@@ -1,0 +1,9 @@
+img {
+    filter: blur(0em);
+    transition: filster 0.5s;;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr;
+}
