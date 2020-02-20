@@ -9,6 +9,9 @@
     #hero{
         background-image: url('/lesson6/image/hero-image-large.jpg');
     }
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     
   
     

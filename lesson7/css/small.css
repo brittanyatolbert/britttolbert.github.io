@@ -182,6 +182,7 @@ aside {
 
 main {
     display: grid;
+    grid-template-columns: 1fr;
     max-width: 1350px;
     margin: auto;
 }
