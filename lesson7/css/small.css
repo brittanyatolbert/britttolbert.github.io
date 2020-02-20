@@ -181,6 +181,7 @@ aside {
 */
 
 main {
+    display: grid;
     max-width: 1350px;
     margin: auto;
 }
@@ -198,8 +199,10 @@ div.polaroid {
     margin-bottom: 20px;
   }
   
-  div.container {
+div.container {
     text-align: center;
     padding-top: 1px;
-  }
+}
+
+
 
