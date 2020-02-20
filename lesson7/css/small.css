@@ -113,13 +113,6 @@ p {
     font-size: 9px;
 }
 
-.logo {
-    max-width: 70px;
-    width: 100%;
-    margin: 20px;
-    height: auto;
-}
-
 .navigation {
     list-style: none;
     padding: 0;
@@ -141,6 +134,8 @@ p {
 .responsive li {
     display: block;
 }
+
+/*
 
 #weather-summary {
     float: left;
@@ -167,11 +162,15 @@ iframe {
     display: none;
 }
 
+*/
+
 aside {
     color: orange;
     font-size: 12px;
     text-align: center;
 }
+
+/*
 
 #hero {
     display: block;
@@ -181,8 +180,15 @@ aside {
     background-image: url('/lesson6/image/hero-image-small.jpg');
     background-size: cover;
 }
+*/
 
 main {
-    max-width: 1080px;
+    max-width: 1350px;
     margin: auto;
+}
+
+img {
+    height: 250px;
+    width: 400px;
+    padding: 20px;
 }
