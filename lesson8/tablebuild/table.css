@@ -1,6 +1,16 @@
 table, caption, tr, th, td{
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     border-collapse: collapse;
+    font-family: 'Ubuntu', sans-serif;
     padding: 5px;
     text-align: center;
+}
+
+tr {
+    background-color: #e7f0ed;
+}
+
+th, #november-sales-goal {
+    background-color: #628ca6;
+    color: white;
 }
