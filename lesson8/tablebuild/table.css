@@ -10,7 +10,12 @@ tr {
     background-color: #e7f0ed;
 }
 
+tr:nth-child(even){
+    background-color: #e7ffed;
+}
+
 th, #november-sales-goal {
     background-color: #628ca6;
     color: white;
 }
+
