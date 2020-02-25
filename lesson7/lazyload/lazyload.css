@@ -1,9 +1,14 @@
+img[data-src] {
+    filter: blur(0.2em);
+}
+
 img {
     filter: blur(0em);
     transition: filster 0.5s;;
 }
 
 .pictures {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
