@@ -186,3 +186,8 @@ main {
     max-width: 1080px;
     margin: auto;
 }
+
+.form  {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem;
+}

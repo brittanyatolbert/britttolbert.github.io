@@ -17,9 +17,7 @@
 </head>
 
 <body>
-    <aside>
-        <p>Saturday = Preston Rose Boquets in the Park! <br> 9:00 a.m. Saturday at the city park pavilion.</p>
-    </aside>
+
     <header>
         <img src="image/gardenlogo.jpg" alt="logo" class=logo>
         <h1>green thumb weather</h1>
@@ -41,100 +39,39 @@
 
     <main>
     <div class=grid>
-        <h5>preston, idaho</h5>
-        <section id="hero">
-        <!-- <img src="image/rainflower.jpg" alt="hero" class=hero> -->
-            <!-- <picture>
-                <source srcset="image/hero-image-small.jpg" media="(max-width: 400px)">
-                <source srcset="image/hero-image-medium.jpg" media="(max-width: 800px)">
-                <source srcset="image/hero-image-large.jpg" media="(min-width: 801px)">
-                <img src="image/hero-image-small.jpg" alt="small">
-            </picture> -->
-            <article id="weather-summary">
-                <h4>WEATHER SUMMARY</h4>
-                <div>
-                    <span>Current Temperature:</span>
-                    <span id="current-temp"></span>
-                </div>
-                <div>
-                    <span>Wind Speed: </span>
-                    <span id="wind-speed"></span>
-                </div>
-                <div>
-                    <span>Wind Chill: </span>
-                    <span id="wind-chill"></span>
-                </div>
-            </article>
-        </section>
+        <h5>storm center</h5>
+        
+        <form action="thanks.html" method="GET">
+        <div class="form">
+            <label for="fullName">Full Name: </label>
+            <input type="text" id="fullName" name="fullName" required>
+        </div>
+        <div class="form">
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+        </div>
+        <div class="form">
+            <label for="phoneNumber">Phone Number: </label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+        </div>
+        <div class="form">
+            <label for="zipCode">Zip Code: </label>
+            <input type="number" id="zipCode" name="zipcode" required>
+        </div>
+        
+        <div class="form">
+            <label for="stormDate">Storm Date: </label>
+            <input type="date" id="stormDate" name="stormDate">
+        </div>
 
 
-        <section>
-            <h2>5 DAY FORECAST</h2>
-            <table id="five-day-forecast">
-                <thead>
-                    <tr>
-                        <th id="day1">Day 1</th>
-                        <th id="day2">Day 2</th>
-                        <th id="day3">Day 3</th>
-                        <th id="day4">Day 4</th>
-                        <th id="day5">Day 5</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td id="temp1">50&deg;</td>
-                        <td id="temp2">45&deg;</td>
-                        <td id="temp3">51&deg;</td>
-                        <td id="temp4">50&deg;</td>
-                        <td id="temp5">48&deg;</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
 
+        <div class="form">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
 
-        <section id="article">
-            <img src="image/grass.jpg" alt="greenhouse" id="article-image">
-            <div id="article-box">
-                <h2>ARTICLE</h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur consequuntur incidunt
-                    nostrum
-                    tenetur perspiciatis perferendis maiores recusandae reprehenderit debitis, doloremque id officia
-                    nisi
-                    fugit
-                    cumque. Fugiat, nostrum debitis. Totam? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Earum
-                    consectetur consequuntur incidunt nostrum
-                    tenetur perspiciatis perferendis maiores recusandae reprehenderit debitis, doloremque id officia
-                    nisi
-                    fugit
-                    cumque. Fugiat, nostrum debitis. Totam?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Earum
-                    consectetur consequuntur incidunt nostrum
-                    tenetur perspiciatis perferendis maiores recusandae reprehenderit debitis, doloremque id officia
-                    nisi
-                    fugit
-                    cumque. Fugiat, nostrum debitis. Totam?</p>
-            </div>
-
-
-        </section>
-        <section id="contact">
-            <h2>CONTACT</h2>
-            <div id="map">
-                <address>
-                    Green Thumb Weather<br>
-                    12345 Boquet Rd<br>
-                    Rosetown, ID 83440<br>
-                    208-345-9807<br>
-                    greenthumbweather@gmail.com
-                </address>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.4901682837094!2d-111.7921059843465!3d43.824933549326516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540bac8b23d411%3A0x1c6d9cefb42a59a!2sSodaVine!5e0!3m2!1sen!2sus!4v1581010164016!5m2!1sen!2sus"
-                    width="70%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-            </div>
-        </section>
-    </div>
+        </form>
 </main>
 
     <footer class=root>
