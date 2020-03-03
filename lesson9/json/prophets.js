@@ -4,8 +4,11 @@ fetch('https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.
             return result.json();
         }
     )
-    .then(
-        prophets => {
-        console.log(prophets);
-        }
-    )
+    .then(prophetList => {
+        let prophets = prophetList.prophets;
+
+        prophets.forEach(prophet => {
+                console.log(prophet.name + ' ' + prophet.lastname);
+            })
+
+        });
