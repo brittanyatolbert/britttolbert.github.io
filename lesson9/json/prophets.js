@@ -24,7 +24,7 @@ fetch('https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.
                 image.setAttribute('alt', `${prophet.name} ${prophet.lastname}`);
 
 
-                article.appendChild('h1');
+                article.appendChild(h1);
                 article.appendChild(dateOfBirth);
                 article.appendChild(placeOfBirth);
                 article.appendChild(image);
