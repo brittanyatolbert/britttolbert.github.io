@@ -80,6 +80,7 @@
         font-family: 'League Script', cursive;
         text-align: center;
         font-size: 35px;
+        margin-bottom: 25px;
     }
 
     h6 {
@@ -91,9 +92,11 @@
     p {
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
-        padding-right: 3em;
-        padding-left: 3em;
-        padding-bottom: 3em;
+        padding-left: 25px;
+        padding-right: 30px;
+        text-align: center;
+        margin: 10px;
+        
     }
     
     .center{
@@ -187,4 +190,8 @@ main{
 #cities {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+    width: 300px;
 }
