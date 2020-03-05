@@ -60,12 +60,13 @@ hambutton.addEventListener("click", toggleMenu, false);
 function toggleMenu() {
   document.querySelector(".navigation").classList.toggle("responsive");
 }
-
+/*
 document.querySelector('#current-temp').innerHTML = '50&deg;';
 document.querySelector('#wind-speed').innerHTML = '10mph';
 document.querySelector('#humidity').innerHTML = '10&percnt;';
+*/
 
-/*Friday Banner*/
+/*Friday Banner
 
  const pancake = new Date();
  const aside = document.querySelector('aside');
@@ -75,4 +76,6 @@ document.querySelector('#humidity').innerHTML = '10&percnt;';
  else {
    aside.style.display = 'none';
  }
+
+ */
  

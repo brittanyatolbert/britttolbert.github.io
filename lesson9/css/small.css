@@ -183,3 +183,8 @@ main{
     max-width: 1080px;
     margin: auto;
 }
+
+#cities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
