@@ -68,6 +68,8 @@
         font-size: 15px;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
+        margin-top: 0px;
+        margin-bottom: 25px;
     }
 
     h4 {
@@ -168,6 +170,7 @@
 
 iframe {
     display:none;
+    border-radius: 15px;
 }
 
 aside{
