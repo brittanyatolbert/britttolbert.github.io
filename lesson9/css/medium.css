@@ -109,14 +109,10 @@
     #cities {
         grid-template-columns: 1fr 1fr;
     }
-
+   
     article{
-        margin-left: 15px;
         margin-right: 15px;
     }
-        
-        
-
     }
 
 
