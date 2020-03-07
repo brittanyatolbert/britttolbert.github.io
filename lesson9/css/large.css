@@ -1,5 +1,6 @@
 @media only screen and (min-width: 64.0em) {
  
+    
 
     #cities {
         grid-template-columns: 1fr 1fr 1fr;
