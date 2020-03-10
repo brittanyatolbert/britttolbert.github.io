@@ -17,6 +17,7 @@
         background-color: #e0f7e7;
         margin: 1em 0;
         padding: 15px;
+        border-radius: 15px;
     }
     
     nav a{
@@ -94,6 +95,7 @@
         padding-right: 3em;
         padding-left: 3em;
         padding-bottom: 3em;
+        text-align: center;
     }
     
     .center{
@@ -146,6 +148,7 @@
         font-size: 15px;
         font-family: 'Montserrat', sans-serif;
         max-width: 200px;
+        border-radius: 15px;
 
     }
 
