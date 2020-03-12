@@ -22,12 +22,13 @@ fetch(apiURL)
                 document.querySelector('#windChill').innerHTML = Math.round(windChill) + '&deg';
               }
 
-            document.querySelector('#weatherDesc').textContent = jsObject.weather[0].main;
 
             let imageURL = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
             document.querySelector('#weatherImage').setAttribute('src', imageURL);
 
             document.querySelector('#weatherImage').setAttribute('alt', jsObject.weather[0].main);
+
+            document.querySelector('#weatherDesc').textContent = jsObject.weather[0].main;
         }
     );
 
