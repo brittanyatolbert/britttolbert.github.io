@@ -13,17 +13,21 @@ fetch(apiURL)
               }
 
               document.querySelector('#currentTemp').innerHTML = currentTemp.toFixed(0) + '&deg';
-              document.querySelector('#windSpeed').innerHTML = windspeed.toFixed(0) + 'mph';
+              document.querySelector('#windSpeed').innerHTML = windSpeed.toFixed(0) + 'mph';
               
             if (windChill == 0) {
                 document.getElementById("windChill").innerHTML = 'N/A';
             }
               else {
-                document.querySelector('windChill').innerHTML = Math.round(windChill) + '&deg';
-
-
-                
+                document.querySelector('#windChill').innerHTML = Math.round(windChill) + '&deg';
               }
+
+            document.querySelector('#weatherDesc').textContent = jsObject.weather[0].main;
+
+            let imageURL = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
+            document.querySelector('#weatherImage').setAttribute('src', imageURL);
+
+            document.querySelector('#weatherImage').setAttribute('alt', jsObject.weather[0].main);
         }
     );
 
