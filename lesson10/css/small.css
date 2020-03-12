@@ -44,11 +44,27 @@
     }
 
     table, tr, th, td{
-        border: 1px solid #324438;
+        background-color: #324438;
         border-collapse: collapse;
-        padding: 10px;
+        padding: 20px;
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        border-radius: 15px;
+        font-size: 15px;
+        
     }
-    
+
+    table {
+        margin: 10px;
+    }
+
+    th {
+        border-bottom:#e0f7e7 solid 2px;
+    }
+
+   
     
     .flex {
         display: flex;
@@ -143,7 +159,7 @@
 
     #weather-summary {
         color: white;
-        background-color: #324438;
+        background-color: #324438ce;
         padding: 1px 20px 20px 20px; 
         font-size: 15px;
         font-family: 'Montserrat', sans-serif;
@@ -186,3 +202,8 @@ main{
     max-width: 1080px;
     margin: auto;
 }
+
+#weatherImage {
+    width: 50px;
+}
+
