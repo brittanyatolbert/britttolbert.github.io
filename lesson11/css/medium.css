@@ -1,0 +1,114 @@
+
+    @media only screen and (min-width: 40.5em) {
+        #article{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+        }
+    
+        #article-box{
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+    
+        #article img{
+            grid-column: 2/3;
+            display: block;
+            margin: auto;
+        }
+    }
+    
+    @media only screen and (min-width: 32.5em) {
+
+    header{
+        flex-direction: row;
+    }
+    
+    .flex {
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    
+
+    
+    nav ul li a{
+        padding: 10px;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: #324438;
+    }
+    
+    
+    h1 {
+        font-size: 50px;
+        margin-top: 0pt;
+    }
+    
+    h2 {
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    
+    
+    
+    .root{
+        font-size: 15px;
+    }
+
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+    }
+
+    .hero{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #weather-summary {
+        padding: 5px 20px 20px 20px; 
+        max-width: 230px;
+        font-size: 16px;
+    }
+    
+
+    #five-day-forecast {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #article-image{
+        max-width: 390px;
+        /* float: right; */
+        margin: 0 0 1em 1em;
+
+}
+    #map{
+        display:flex;
+        justify-content:space-around;
+        justify-content:space-between;
+    }
+
+    iframe {
+        display:block;
+    }
+        
+        
+
+    }
+
+
