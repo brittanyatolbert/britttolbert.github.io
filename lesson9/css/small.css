@@ -1,4 +1,6 @@
 
+    /*HEADER & NAV*/
+    
     header{
         display: flex;
         flex-direction: column;
@@ -12,15 +14,7 @@
         margin : 20px;
         height: auto;
     }
-    
-    section{
-        background-color: #e0f7e7;
-        margin: 1em 0;
-        padding: 15px;
-        border-radius: 15px;
-        align-content: center;
-    }
-    
+
     nav a{
         padding: 10px;
         display: block;
@@ -42,6 +36,16 @@
         border-top: 4px solid #88bb99;
         border-bottom: 4px solid #88bb99;
         margin-bottom: 3em;
+    }
+
+    /*CITY WEATHER*/
+
+    section{
+        background-color: #e0f7e7;
+        margin: 1em 0;
+        padding: 15px;
+        border-radius: 15px;
+        align-content: center;
     }
 
     table, tr, th, td{
