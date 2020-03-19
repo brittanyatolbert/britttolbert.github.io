@@ -8,7 +8,7 @@ fetch ('https://byui-cit230.github.io/weather/data/towndata.json')
 
 .then(
     (result) => {
-        result.town.forEach(
+        result.towns.forEach(
            (town) => {
                if (town.name.toLowerCase() === cityName.toLowerCase()){
                    town.events.forEach(
