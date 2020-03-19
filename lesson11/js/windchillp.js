@@ -1,9 +1,7 @@
 /* PRESTON WEATHER -  5604473*/
 
-function getCurrentWeather(cityId) {
 
-const apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=' +
- cityId + '&appid=bd741f70ebb95aea8d862034a503c348&units=imperial';
+const apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=bd741f70ebb95aea8d862034a503c348&units=imperial';
 
 fetch(apiURLWeather)
     .then(response => response.json())
@@ -43,7 +41,6 @@ fetch(apiURLWeather)
         }
     );
 
-}
 
 
 /*5 day forecast*/
