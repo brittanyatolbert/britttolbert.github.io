@@ -16,7 +16,7 @@ fetch ('https://byui-cit230.github.io/weather/data/towndata.json')
                            let li = document.createElement('li');
                            li.textContent = event;
 
-                           document.querySelector('#events').appendChild('li');
+                           document.querySelector('#events').appendChild(li);
                        }
                    )
                }
