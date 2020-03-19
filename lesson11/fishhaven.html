@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body onload="getEvents('fish haven')">
     <aside>
         <p>Saturday = Preston Rose Boquets in the Park! <br> 9:00 a.m. Saturday at the city park pavilion.</p>
     </aside>
@@ -99,12 +99,15 @@
             </table>
         </section>
 
+        <section>
+            <h2>UPCOMING EVENTS</h2>
+            <ul id="events"></ul>
+        </section>
 
         <section id="article">
             <img src="image/grass.jpg" alt="greenhouse" id="article-image">
             <div id="article-box">
                 <h2>HOW PLANTS RESPOND TO CHANGES IN WEATHER</h2>
-                <p>The New York Times</p>
                 <p>
                     THIS has been a fluky winter. In many ways it has seemed more like spring, because so many of the
                     days have been mild. And where is that usual wintertime blizzard? Snow shovels and snow blowers have
@@ -134,27 +137,10 @@
                     One thing is certain, though, any flower buds that opened last fall have finished their display and
                     will not have had time to re-form flowers for this spring. What buds have already opened to flower
                     in fall cannot bloom again this spring. If some of the shrubs appear motley in flower as soon as
-                    genuine mild weather comes, this would explain why.
+                    genuine mild weather comes, this would explain why. 
                 </p>
                 <p>
-                    The plants that seem to be the hardest hit with this kind of cold snap are those that retain their
-                    leaves year-round, particularly the broadleaved evergreens. Rhododendrons, hollies, leucothoes,
-                    mountain laurels and pieris are among the popular landscape plants. All are subject to winter
-                    temperature stress and some more than others. Spring will tell. There is nothing gardeners can do
-                    now but keep their fingers crossed.
-
-                    Those who have rhododendrons on their property rarely need to consult a thermometer to know how cold
-                    it is. The rhododendrons have a weather gauge of their own. The colder it is outside, the tighter
-                    the leaves curl and hang down. There was a time when the temperature hovered near 10 degrees, and
-                    the rhododendron leaves, curled tightly inward, hung like long green pencils. When the temperatures
-                    began to ameliorate, toward 20 degrees, the leaves began to open a bit and look more like
-                    rhododendrons. But it was not until the thermometer was well above the freezing mark that the
-                    rhododendron leaves assumed their usual flat-out appearance and once again became the dramatic
-                    statement that these magnificent plants usually are.
-
-                    This phenomenon of nature is one of the best barometers of severe winter weather. And it is also one
-                    of the endowments of nature for a plant's winter survival. Few natural examples are as obvious as
-                    this one.
+                    Continue reading at: https://www.nytimes.com/
                 </p>
             </div>
 
@@ -181,8 +167,9 @@
     <footer class=root>
         &copy; GREEN THUMB WEATHER | <span id="current-date"></span> | BRITT TOLBERT
     </footer>
+    <script src="js/events.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/windchillf.js"></script>
 
 </body>
 
