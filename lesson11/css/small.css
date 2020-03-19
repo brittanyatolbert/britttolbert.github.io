@@ -110,7 +110,7 @@
         font-size: 14px;
         padding-right: 3em;
         padding-left: 3em;
-        padding-bottom: 3em;
+        padding-bottom: 1em;
         text-align: center;
     }
     
@@ -227,3 +227,8 @@ main{
     width: 50px;
 }
 
+#events {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
