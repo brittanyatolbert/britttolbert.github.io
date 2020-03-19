@@ -233,3 +233,11 @@ main{
     font-size: 14px;
     text-align: center;
 }
+
+img {
+    border-radius: 15px;
+}
+
+iframe {
+    border-radius: 15px;
+}
