@@ -1,7 +1,7 @@
 /* FISH HAVEN WEATHER -  */
 
 
-const apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=bd741f70ebb95aea8d862034a503c348&units=imperial';
+const apiURLWeather = 'https://api.openweathermap.org/data/2.5/weather?id=5585000&appid=bd741f70ebb95aea8d862034a503c348&units=imperial';
 
 fetch(apiURLWeather)
     .then(response => response.json())
@@ -47,7 +47,7 @@ fetch(apiURLWeather)
 
 
 
-const apiURLForecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&appid=bd741f70ebb95aea8d862034a503c348&units=imperial';
+const apiURLForecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5585000&appid=bd741f70ebb95aea8d862034a503c348&units=imperial';
 
 fetch(apiURLForecast)
     .then(response => response.json())
