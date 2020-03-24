@@ -1,0 +1,92 @@
+[
+    {
+        "TempleName":"Washington DC Temple",
+        "StreetLine1": "9900 Stoneybrook Dr",
+        "StreetLine2": "",
+        "City": "Kensington",
+        "State": "Maryland",
+        "Country": "United States",
+        "Zip": "20895",
+        "Telephone": "301-588-0650",
+        "Email": "",
+        "Services": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "History": [
+            {
+                "Date": "",
+                "Milestone": ""
+            },
+            {
+                "Date": "",
+                "Milestone": ""
+            },
+            {
+                "Date": "",
+                "Milestone": ""
+            }
+        ],
+        "Schedule": [
+            {
+                "Baptism": "Tuesday - Saturday",
+                "Initiatory": "Tuesday - Saturday",
+                "Endownment": "Tuesday - Saturday",
+                "Sealing": "Tuesday - Saturday"
+            }
+        ],
+        "Temple Closure": [
+            "Saturday, 4th of April 2020", 
+            "Tuesday, 23 June 2020 - Monday...."
+        ]
+    }, 
+
+    {
+        "TempleName":"Washington DC Temple",
+        "StreetLine1": "9900 Stoneybrook Dr",
+        "StreetLine2": "",
+        "City": "Kensington",
+        "State": "Maryland",
+        "Country": "United States",
+        "Zip": "20895",
+        "Telephone": "301-588-0650",
+        "Email": "",
+        "Services": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "History": [
+            {
+                "Date": "",
+                "Milestone": ""
+            },
+            {
+                "Date": "",
+                "Milestone": ""
+            },
+            {
+                "Date": "",
+                "Milestone": ""
+            }
+        ],
+        "Schedule": [
+            {
+                "Baptism": "Tuesday - Saturday",
+                "Initiatory": "Tuesday - Saturday",
+                "Endownment": "Tuesday - Saturday",
+                "Sealing": "Tuesday - Saturday"
+            }
+        ],
+        "Temple Closure": [
+            "Saturday, 4th of April 2020", 
+            "Tuesday, 23 June 2020 - Monday...."
+        ]
+    }
+
+
+
+]
