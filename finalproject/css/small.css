@@ -12,8 +12,10 @@ header {
 }
 
 nav a{
-    margin-top: 5.2em;
+    margin-top: 7em;
     padding: 3em;
+    padding-bottom: 1em;
+    padding-top: 1em;
     display: block;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -44,6 +46,15 @@ nav {
 ul {
     list-style: none;
     padding-left: 0px;
+}
+
+.navigation a:hover {
+    color:white;
+    background-color:darkgray;
+}
+
+.responsive li {
+    display: block;
 }
 
 /* MAIN */
