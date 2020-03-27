@@ -9,11 +9,12 @@ header {
 .logo {
     width: 12em;
     padding-left: 10em;
+    margin-bottom: 0px;
 }
 
 nav a{
     margin-top: 7em;
-    padding: 3em;
+   
     padding-bottom: 1em;
     padding-top: 1em;
     display: block;
@@ -21,13 +22,16 @@ nav a{
     font-family: 'Raleway', sans-serif;
     font-size: 17px;
     color: black;
+    margin-bottom:0px;
 }
 
 nav {
-    line-height: 10px;
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
+
 
 .navigation {
     margin-right: 10em;
@@ -58,6 +62,11 @@ ul {
 }
 
 /* MAIN */
+
+.landscape{
+    margin-top:0;
+    width: 100%;
+}
 
 h1 {
     font-family: 'Playfair Display', serif;
