@@ -1,7 +1,50 @@
 /* HEADER & NAV */
 
+header {
+    border-top: 60px solid black;
+    display: flex;
+    flex-direction: row;
+}
 
+.logo {
+    width: 12em;
+    padding-left: 10em;
+}
 
+nav a{
+    margin-top: 5.2em;
+    padding: 3em;
+    display: block;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    color: black;
+}
+
+nav {
+    line-height: 10px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.navigation {
+    margin-right: 10em;
+    align-items: right;
+    display: flex;
+}
+.navigation li {
+    display: block; /* needed because of state in small view */
+    flex: 1 1 100%;
+}
+
+.navigation li:first-child {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
 
 /* MAIN */
 
