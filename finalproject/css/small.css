@@ -69,6 +69,11 @@ ul {
     width: 100%;
 }
 
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+
 h1 {
     font-family: 'Playfair Display', serif;
 }
