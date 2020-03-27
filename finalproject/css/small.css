@@ -14,7 +14,8 @@ header {
 
 nav a{
     margin-top: 7em;
-   
+    padding-right: 1em;
+    padding-left: 1em;
     padding-bottom: 1em;
     padding-top: 1em;
     display: block;
