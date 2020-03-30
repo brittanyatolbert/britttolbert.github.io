@@ -81,6 +81,9 @@ main{
 
 .arizona {
     width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* RESERVE NOW*/ h1 {
@@ -90,15 +93,29 @@ main{
     margin-bottom: 2em;
     background-color: #696969;
     color: white;
-    padding-right: 5px;
-    padding-left:5px;
+    padding: 15px;
     border-radius: 15px;
+}
+
+#feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5em;
+}
+
+#featureText {
+    background-image:url(/finalproject/images/wallpaper.jpg);
+}
+
+#text {
+    background-color: white;
 }
 
 h2{
     font-family: 'Playfair Display', serif;
     text-align: center;
     font-size: 30px;
+    margin-bottom: 3em;
 }
 
 p {
@@ -107,3 +124,10 @@ p {
 
 /* FOOTER */
 
+#foot{
+    background-color: black;
+    color: white;
+    padding: 4em;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
