@@ -155,9 +155,12 @@ p {
 /*CONTACT US PAGE*/
 
 #contact{
-    border-top: #5f9591 10px solid ;
-    padding: 15px;
     margin-top: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 3rem;
+    background-color:#5f9591;
+    color: white;
+    border-radius: 15px;
 }
 
 /* FOOTER */
