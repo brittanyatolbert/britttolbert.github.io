@@ -52,54 +52,43 @@
                 </div>
 
                 <div class="form">
-                    <label for="zipCode">Zip Code: </label>
-                    <input type="number" id="zipCode" name="zipcode" required>
+                    <label for="home">Home State or Country: </label>
+                    <input type="number" id="home" name="home">
                 </div>
 
                 <div class="form">
-                    <label for="stormDate">Storm Date: </label>
-                    <input type="date" id="stormDate" name="stormDate">
-                </div>
-
-                <div class="form">
-                    <label for="stormType">Storm Type: </label>
-                    <input list="stormType">
-                    <datalist id="stormType">
-                      <option value="Flash Flood">
-                      <option value="Hail">
-                      <option value="Hurricane">
-                      <option value="Thunderstorm">
-                      <option value="Tornado">
-                      </datalist>
-                </div>
-
-                <div class="form">
-                    <label for="stormSeverity">Storm Severity: </label>
-                    <input type="range" id="StormSeverity" name="stormSeverity" min="1" max="10" step="1"
-                        list="tickmarks" onchange="adjustRating(this.value)" oninput="adjustRating(this.value)">
-                    <span id="rating"></span>
-                </div>
-
-                <div class="form">
-                    <label for="stormRegion">Storm Region: </label>
+                    <label for="stormRegion">Location: </label>
                     <select name="subject">
-                        <option value"" selected disabled>Select Region &#9662;</option>
-                        <option values="preston">Preston</option>
-                        <option values="fishhaven">Fish Haven</option>
-                        <option values="sodasprings">Soda Springs</option>
+                        <option value="" selected disabled>Select Location &#9662;</option>
+                        <option values="provo">Provo City Center, Utah</option>
+                        <option values="washington">Washington DC, Maryland</option>
+                        <option values="gilbert">Gilbert, Arizona</option>
+                        <option values="mexico">Mexico City, Mexico</option>
                     </select>
                 </div>
 
                 <div class="form">
-                    <label for="userInDangerLevel">User in Danger Level: </label>
-                    <br>
-                    <label><input type="radio" name="userInDangerLevel" value="yes"> Yes</label>
-                    <label><input type="radio" name="userInDangerLevel" value="no"> No</label>
-                    <label><input type="radio" name="userInDangerLevel" value="maybe"> Maybe</label>
+                    <label for="startDate">Check In Date: </label>
+                    <input type="date" id="startDate" name="startDate">
                 </div>
 
                 <div class="form">
-                    <label for="addInfo">Additional Information: </label><br>
+                    <label for="endDate">Check Out Date: </label>
+                    <input type="date" id="endDate" name="endDate">
+                </div>
+
+                <div class="form">
+                    <label for="userInDangerLevel">Number of Rooms: </label>
+                    <br>
+                    <label><input type="radio" name="userInDangerLevel" value="1"> 1</label>
+                    <label><input type="radio" name="userInDangerLevel" value="2"> 2</label>
+                    <label><input type="radio" name="userInDangerLevel" value="3"> 3</label>
+                    <label><input type="radio" name="userInDangerLevel" value="3"> 4</label>
+                    <label><input type="radio" name="userInDangerLevel" value="3"> 5</label>
+                </div>
+
+                <div class="form">
+                    <label for="addInfo">Special Requests: </label><br>
                     <textarea id="addInfo" name="addInfo" cols="35" rows="8"></textarea>
                 </div>
 
