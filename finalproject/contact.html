@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 </head>
+
 <body>
     <header>
         <img src="images/TempleInnLogo.jpg" alt="logo" class="logo">
@@ -29,22 +31,58 @@
 
     </header>
 
-    <!--<img src="images/provocity.jpg" alt="provo" class="landscape">-->
+    <img src="images/provocity.jpg" alt="provo" class="landscape">
 
     <main>
-        <section>
-        
-        </section>
+        <div class="grid">
+            <section id="contact">
+                <h2>Contact Us</h2>
 
-        <section></section>
+                <form action="thanks.html" method="GET">
+                    <div class="form">
+                        <label for="fullName">Full Name: </label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
 
-        <section></section>
+                    <div class="form">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                    </div>
 
-        <section></section>
+                    <div class="form">
+                        <label for="addInfo">Questions: </label><br>
+                        <textarea id="addInfo" name="addInfo" cols="35" rows="8"></textarea>
+                    </div>
 
+                    <div class="form">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+
+            </section>
+
+            <section>
+                <h2></h2>
+                <div>
+                    <address>
+                        Temple Inn & Suites<br>
+                        4800 Montgomery Ln #300<br>
+                        Bethesda, MD 20814<br>
+                        208-345-9807<br>
+                    </address><br>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197013257!2d-77.0977204843512!3d38.98325177955748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0xceab47cd19a23a3b!2s4800%20Montgomery%20Ln%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1585624121670!5m2!1sen!2sus"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+
+            </section>
+
+
+        </div>
 
     </main>
-    
+
     <footer id="foot">
         &copy; TEMPLE INN & SUITES | <span id="current-date"></span> | BETHESDA, MD
     </footer>
@@ -52,4 +90,5 @@
 
     <script src="scripts/main.js"></script>
 </body>
+
 </html>

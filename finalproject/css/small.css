@@ -133,7 +133,7 @@ h2{
     font-family: 'Playfair Display', serif;
     text-align: center;
     font-size: 30px;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 p {
@@ -150,6 +150,14 @@ p {
 .grid {
     text-align: center;
     margin-bottom: 5rem;
+}
+
+/*CONTACT US PAGE*/
+
+#contact{
+    background-color: #dbdbdb;
+    border-radius: 15px;
+    padding: 15px;
 }
 
 /* FOOTER */
