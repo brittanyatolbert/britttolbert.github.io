@@ -155,9 +155,9 @@ p {
 /*CONTACT US PAGE*/
 
 #contact{
-    background-color: #dbdbdb;
-    border-radius: 15px;
+    border-top: #5f9591 10px solid ;
     padding: 15px;
+    margin-top: 2rem;
 }
 
 /* FOOTER */
