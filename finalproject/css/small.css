@@ -30,9 +30,6 @@ nav a{
 
 nav {
     text-align: center;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 0em;
 }
 
 .navigation {
@@ -85,26 +82,30 @@ main{
     margin-bottom:1em;
 }
 
-/* RESERVE NOW*/ #reserve{
-    color: black;
+/* RESERVE NOW*/ #reserve a{
+    color: white;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 2em;
     background-color: #5f9591;
     padding: 15px;
     border-radius: 15px;
     font-size: 45px;
+}
+#reserve {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 5em;
     list-style: none;
 }
 
 #reserve a:link {
-    text-decoration: black;
+    text-decoration: none;
 }
 
 #reserve a:hover{
-    color: white;
+    color: #5f9591;
+    background-color: #dbdbdb;
+    box-shadow: 5px 5px 5px darkgray;
 }
 
 #feature {
@@ -137,6 +138,18 @@ h2{
 
 p {
     font-family: 'Raleway', sans-serif;
+}
+
+/*RESERVATION FORM*/
+
+.form  {
+    font-family: 'Raleway', sans-serif;
+    padding: 1rem;
+}
+
+.grid {
+    text-align: center;
+    margin-bottom: 5rem;
 }
 
 /* FOOTER */
