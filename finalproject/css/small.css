@@ -170,7 +170,7 @@ p {
 
 #hola{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 5em;
     text-align: center;
 
