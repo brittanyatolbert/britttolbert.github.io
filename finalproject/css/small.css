@@ -162,6 +162,20 @@ p {
 
 }
 
+/* SERVICES PAGE*/
+
+#icons {
+    width: 150px;
+}
+
+#hola{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 5em;
+    text-align: center;
+
+}
+
 /* FOOTER */
 
 #foot{
