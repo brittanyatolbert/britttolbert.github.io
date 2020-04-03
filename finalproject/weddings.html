@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 </head>
+
 <body>
     <header>
         <img src="images/TempleInnLogo.jpg" alt="logo" class="logo">
@@ -34,13 +36,80 @@
     <main>
         <div class=grid>
             <h2>Weddings & Receptions</h2>
-            <p>A confirmation email will be sent to you shortly.</p>
+            <p>Weddings and receptions are our bread and butter here at Temple Inn & Suites. The location is
+                convienently close to the temple and is a perfect place for your out of state guests. We include all
+                sorts of packages, discounts, and decorations. Feel free to contact us to reserve your reception space
+                today!</p>
+            <h3>Venue Options</h3>
+            <ul>
+                <li>Indoor Ballroom</li>
+                <li>Indoor Conference Room</li>
+                <li>Outdoor Garden</li>
+            </ul>
+            <h3>Decorations</h3>
+            <ul>
+                <li>Tables and Chairs</li>
+                <li>Table Clothes and Runners</li>
+                <li>Candles, Lanterns, and Bistro Lights</li>
+                <li>Flowers and Greenery</li>
+            </ul>
+            <h3>Food Options</h3>
+            <ul>
+                <li>Waffle Bar</li>
+                <li>Pizza Bar</li>
+                <li>Donut Bar</li>
+                <li>American Buffet</li>
+                <li>Italian Cuisine</li>
+                <li>Desert Assorments</li>
+                <li>Special Plated Dinners</li>
+                <li>Other Food Upon Request</li>
+            </ul>
+
+            <h3>Extras</h3>
+            <ul>
+                <li>DJ equiptment</li>
+                <li>Dance Floor</li>
+                <li>Lists of Vendors</li>
+                <li>Full Set Up and Clean Up</li>
+                <li>Wedding Buffet and Desserts</li>
+            </ul>
+
+            <img src="images/food.jpg" alt="Treats" width="800px">
+            <br>
+            <img src="images/weddingtables.jpg" alt="Tables" width="800px">
+
+            <section>
+                <h2>Contact Us</h2>
+                <form action="thanks.html" method="GET">
+                    <div class="form">
+                        <label for="fullName">Full Name: </label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+
+                    <div class="form">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                    </div>
+
+                    <div class="form">
+                        <label for="addInfo">Questions: </label><br>
+                        <textarea id="addInfo" name="addInfo" cols="35" rows="8"></textarea>
+                    </div>
+
+                    <div class="form">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+
+            </section>
+        </div>
     </main>
-    
+
     <footer id="foot">
         &copy; TEMPLE INN & SUITES | <span id="current-date"></span> | BETHESDA, MD
     </footer>
 
     <script src="scripts/main.js"></script>
 </body>
+
 </html>
