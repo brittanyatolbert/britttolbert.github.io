@@ -115,7 +115,6 @@ main{
 }
 
 #featureText {
-    /*background-image:url(/finalproject/images/wallpaper.jpg);*/
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -159,7 +158,6 @@ p {
     margin-top: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 3rem;
-
 }
 
 /* SERVICES PAGE*/
@@ -175,10 +173,38 @@ p {
     text-align: center;
 }
 
+
 #cute{
     margin-left: auto;
     margin-right: auto;
     width: 200px;
+}
+
+#link{
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+#link a:hover{
+    color: #5f9591;
+    font-size: 3opx;
+}
+
+#middle {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+#icons2{
+    width: 150px;
+    align-items: center;
+}
+
+#icons2 a:hover{
+    box-shadow: 5px 5px darkgray;
 }
 
 /* FOOTER */
