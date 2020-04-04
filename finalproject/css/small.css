@@ -208,6 +208,18 @@ p {
     box-shadow: 5px 5px darkgray;
 }
 
+/* TEMPLES PAGE*/
+
+#templo{
+    width: 400px;
+}
+
+.universe {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
 /* FOOTER */
 
 #foot{

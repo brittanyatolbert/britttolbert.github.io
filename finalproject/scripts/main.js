@@ -75,7 +75,11 @@ fetch('json/temples.json')
         response[0].Services.forEach(service => {document.querySelector('#service').innerHTML +=`${ service }`;})
         response[0].OrdinanceSchedule.forEach(schedule => {document.querySelector('#schedule').textContent +=`${ schedule}`;})
         response[0].History.forEach(history => {document.querySelector('#history').textContent +=`${ history }`;})
-
+        
+        document.querySelector('#temple-name').textContent = response[1].TempleName;
+        response[1].Services.forEach(service => {document.querySelector('#service').innerHTML +=`${ service }`;})
+        response[1].OrdinanceSchedule.forEach(schedule => {document.querySelector('#schedule').textContent +=`${ schedule}`;})
+        response[1].History.forEach(history => {document.querySelector('#history').textContent +=`${ history }`;})
 
 
 
