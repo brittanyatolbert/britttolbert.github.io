@@ -30,7 +30,7 @@
                 "Date": "November 19th, 1974"
             }
         ],
-        "Ordinance Schedule": [
+        "OrdinanceSchedule": [
             {
                 "Baptism": "9:00AM - 2:00PM",
                 "Initiatory": "6:00AM - 5:00PM",
@@ -38,7 +38,7 @@
                 "Sealing": "7:00AM - 7:00PM"
             }
         ],
-        "Temple Closure": [
+        "TempleClosure": [
             "Saturday, 4th of April 2020", 
             "Tuesday, 23 June 2020 - Monday, 27th June 2020",
             "Wednesday, 1st of August - Friday, 3rd of August 2020 ",
@@ -78,7 +78,7 @@
                 "Date": "March 2nd, 2014"
             }
         ],
-        "Ordinance Schedule": [
+        "OrdinanceSchedule": [
             {
                 "Baptism": "9:00AM - 1:00PM",
                 "Initiatory": "6:00AM - 5:00PM",
@@ -86,7 +86,7 @@
                 "Sealing": "7:00AM - 5:00PM"
             }
         ],
-        "Temple Closure": [
+        "TempleClosure": [
             "Saturday, 4th of April 2020", 
             "Tuesday, 23 June 2020 - Monday, 27th June 2020",
             "Wednesday, 1st of August - Friday, 3rd of August 2020 ",
@@ -126,7 +126,7 @@
                 "Date": "March 20th, 2016"
             }
         ],
-        "Ordinance Schedule": [
+        "OrdinanceSchedule": [
             {
                 "Baptism": "9:00AM - 1:00PM",
                 "Initiatory": "6:00AM - 5:00PM",
@@ -134,7 +134,7 @@
                 "Sealing": "7:00AM - 5:00PM"
             }
         ],
-        "Temple Closure": [
+        "TempleClosure": [
             "Saturday, 4th of April 2020", 
             "Tuesday, 23 June 2020 - Monday, 27th June 2020",
             "Wednesday, 1st of August - Friday, 3rd of August 2020 ",
@@ -174,7 +174,7 @@
                 "Date": "2nd December, 1983"
             }
         ],
-        "Ordinance Schedule": [
+        "OrdinanceSchedule": [
             {
                 "Baptism": "9:00AM - 2:00PM",
                 "Initiatory": "6:00AM - 5:00PM",
@@ -182,7 +182,7 @@
                 "Sealing": "7:00AM - 7:00PM"
             }
         ],
-        "Temple Closure": [
+        "TempleClosure": [
             "Saturday, 4th of April 2020", 
             "Tuesday, 23 June 2020 - Monday, 27th June 2020",
             "Wednesday, 1st of August - Friday, 3rd of August 2020 ",
