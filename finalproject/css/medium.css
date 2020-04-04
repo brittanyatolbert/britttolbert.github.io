@@ -2,12 +2,17 @@
 
  /* HEADER & NAV */
 
-
+ .navigation li {
+    display: block; /* needed because of state in small view */
+    flex: 1 1 100%;
+}
 
 
  /* MAIN */ 
 
-
+ #hola{
+    grid-template-columns: 1fr 1fr;
+}
  
 
  /* FOOTER */

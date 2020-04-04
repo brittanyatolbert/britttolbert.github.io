@@ -39,8 +39,7 @@ nav {
     margin-bottom: 0em;
 }
 .navigation li {
-    display: block; /* needed because of state in small view */
-    flex: 1 1 100%;
+    display: none;
 }
 
 .navigation li:first-child {
@@ -169,7 +168,7 @@ p {
 
 #hola{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-bottom: 5em;
     text-align: center;
 }

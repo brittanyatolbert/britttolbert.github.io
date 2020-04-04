@@ -63,8 +63,6 @@ function toggleMenu() {
 
 
 
-
-
 fetch('json/temples.json')
     .then(response => response.json())
     .then(
