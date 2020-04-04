@@ -63,38 +63,22 @@ function toggleMenu() {
 
 
 
-/*fetch('json/temples.json')
+fetch('json/temples.json')
     .then(response => response.json())
     .then(
         response => {
 
-        document.querySelector('#temple-name').textContent = 
-            response[0].TempleName;
+        document.querySelector('#temple-name').textContent = response[0].TempleName;
 
-        document.querySelector('#street-line-1').textContent = 
-            response[0].StreetLine1;
+        /*document.querySelector('#street-line-1').textContent = response[0].StreetLine1;*/
     
-        response[0].Services.forEach(
-            service => {
-                document.querySelector('#service').innerHTML +=
-                    `${ service }`;
-            }
-        )
+        response[0].Services.forEach(service => {document.querySelector('#service').innerHTML +=`${ service }`;})
+        response[0].OrdinanceSchedule.forEach(schedule => {document.querySelector('#schedule').textContent +=`${ schedule}`;})
+        response[0].History.forEach(history => {document.querySelector('#history').textContent +=`${ history }`;})
 
-        response[0].History.forEach(
-            history => {
-                document.querySelector('#history').innerHTML +=
-                    `${ history }`;
-            }
-        )
 
-        response[0].OrdinanceSchedule.forEach(
-            schedule => {
-                document.querySelector('#schedule').innerHTML +=
-                    `${ schedule }`;
-            }
-        )
+
 
         }
-    );*/
+    );
 
