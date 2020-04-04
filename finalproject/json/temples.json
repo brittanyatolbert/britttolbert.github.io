@@ -10,83 +10,185 @@
         "Telephone": "301-588-0650",
         "Email": "",
         "Services": [
-            "",
-            "",
-            "",
-            ""
+            "NO clothing rental available",
+            "NO distribution center nearby",
+            "NO cafeteria food served",
+            "NO patron housing available"
         ],
         "History": [
             {
-                "Date": "",
-                "Milestone": ""
+                "Milestone": "Announced",
+                "Date": "November 15th, 1968"
+                
             },
             {
-                "Date": "",
-                "Milestone": ""
+                "Milestone": "Ground Breaking",
+                "Date": "December 7th, 1968"
             },
             {
-                "Date": "",
-                "Milestone": ""
+                "Milestone": "Dedication",
+                "Date": "November 19th, 1974"
             }
         ],
-        "Schedule": [
+        "Ordinance Schedule": [
             {
-                "Baptism": "Tuesday - Saturday",
-                "Initiatory": "Tuesday - Saturday",
-                "Endownment": "Tuesday - Saturday",
-                "Sealing": "Tuesday - Saturday"
+                "Baptism": "9:00AM - 2:00PM",
+                "Initiatory": "6:00AM - 5:00PM",
+                "Endownment": "8:00AM, 9:00AM, 10:00AM, 2:00PM, 7:00PM",
+                "Sealing": "7:00AM - 7:00PM"
             }
         ],
         "Temple Closure": [
             "Saturday, 4th of April 2020", 
-            "Tuesday, 23 June 2020 - Monday...."
+            "Tuesday, 23 June 2020 - Monday, 27th June 2020",
+            "Wednesday, 1st of August - Friday, 3rd of August 2020 ",
+            "Friday, 24th of November 2020",
+            "Monday, 25th of December 2020"
         ]
     }, 
 
     {
-        "TempleName":"Washington DC Temple",
-        "StreetLine1": "9900 Stoneybrook Dr",
+        "TempleName":"Gilbert AZ Temple",
+        "StreetLine1": "3301 Greenfield Rd",
         "StreetLine2": "",
-        "City": "Kensington",
-        "State": "Maryland",
+        "City": "Gilbert",
+        "State": "Arizona",
         "Country": "United States",
-        "Zip": "20895",
-        "Telephone": "301-588-0650",
+        "Zip": "85297",
+        "Telephone": "480-822-5000",
         "Email": "",
         "Services": [
-            "",
-            "",
-            "",
-            ""
+            "Clothing rental available",
+            "Distribution center nearby",
+            "NO cafeteria food served",
+            "NO patron housing available"
         ],
         "History": [
             {
-                "Date": "",
-                "Milestone": ""
+                "Milestone": "Announced",
+                "Date": "April 26th, 2008"
+                
             },
             {
-                "Date": "",
-                "Milestone": ""
+                "Milestone": "Ground Breaking",
+                "Date": "November 13th, 2010"
             },
             {
-                "Date": "",
-                "Milestone": ""
+                "Milestone": "Dedication",
+                "Date": "March 2nd, 2014"
             }
         ],
-        "Schedule": [
+        "Ordinance Schedule": [
             {
-                "Baptism": "Tuesday - Saturday",
-                "Initiatory": "Tuesday - Saturday",
-                "Endownment": "Tuesday - Saturday",
-                "Sealing": "Tuesday - Saturday"
+                "Baptism": "9:00AM - 1:00PM",
+                "Initiatory": "6:00AM - 5:00PM",
+                "Endownment": "11:00AM, 12:00PM, 2:00PM, 5:00PM, 7:00PM",
+                "Sealing": "7:00AM - 5:00PM"
             }
         ],
         "Temple Closure": [
             "Saturday, 4th of April 2020", 
-            "Tuesday, 23 June 2020 - Monday...."
+            "Tuesday, 23 June 2020 - Monday, 27th June 2020",
+            "Wednesday, 1st of August - Friday, 3rd of August 2020 ",
+            "Friday, 24th of November 2020",
+            "Monday, 25th of December 2020"
+        ]
+    },
+
+    {
+        "TempleName":"Provo City Center UT Temple",
+        "StreetLine1": "50 South University Avenue",
+        "StreetLine2": "",
+        "City": "Provo",
+        "State": "Utah",
+        "Country": "United States",
+        "Zip": "84601",
+        "Telephone": "801-343-2700",
+        "Email": "",
+        "Services": [
+            "Clothing rental available",
+            "Distribution center nearby",
+            "NO cafeteria food served",
+            "NO patron housing available"
+        ],
+        "History": [
+            {
+                "Milestone": "Announced",
+                "Date": "October 1st, 2011"
+                
+            },
+            {
+                "Milestone": "Ground Breaking",
+                "Date": "May 12th, 2012"
+            },
+            {
+                "Milestone": "Dedication",
+                "Date": "March 20th, 2016"
+            }
+        ],
+        "Ordinance Schedule": [
+            {
+                "Baptism": "9:00AM - 1:00PM",
+                "Initiatory": "6:00AM - 5:00PM",
+                "Endownment": "11:00AM, 12:00PM, 2:00PM, 5:00PM, 7:00PM",
+                "Sealing": "7:00AM - 5:00PM"
+            }
+        ],
+        "Temple Closure": [
+            "Saturday, 4th of April 2020", 
+            "Tuesday, 23 June 2020 - Monday, 27th June 2020",
+            "Wednesday, 1st of August - Friday, 3rd of August 2020 ",
+            "Friday, 24th of November 2020",
+            "Monday, 25th of December 2020"
+        ]
+    },
+
+    {
+        "TempleName":"Mexico City MX Temple",
+        "StreetLine1": "Avenida 510 #90",
+        "StreetLine2": "Col. San Juan de Aragon",
+        "City": "Distrito Federal",
+        "State": "Mexico",
+        "Country": "Mexico",
+        "Zip": "07950",
+        "Telephone": "(52) 55-5003-3700)",
+        "Email": "",
+        "Services": [
+            "Clothing rental available",
+            "Distribution center nearby",
+            "Cafeteria available",
+            "Patron housing available"
+        ],
+        "History": [
+            {
+                "Milestone": "Announced",
+                "Date": "April 3rd, 1976"
+                
+            },
+            {
+                "Milestone": "Ground Breaking",
+                "Date": "25th November, 1979"
+            },
+            {
+                "Milestone": "Dedication",
+                "Date": "2nd December, 1983"
+            }
+        ],
+        "Ordinance Schedule": [
+            {
+                "Baptism": "9:00AM - 2:00PM",
+                "Initiatory": "6:00AM - 5:00PM",
+                "Endownment": "8:00AM, 9:00AM, 10:00AM, 2:00PM, 7:00PM",
+                "Sealing": "7:00AM - 7:00PM"
+            }
+        ],
+        "Temple Closure": [
+            "Saturday, 4th of April 2020", 
+            "Tuesday, 23 June 2020 - Monday, 27th June 2020",
+            "Wednesday, 1st of August - Friday, 3rd of August 2020 ",
+            "Friday, 24th of November 2020",
+            "Monday, 25th of December 2020"
         ]
     }
-
-
 
 ]

@@ -66,7 +66,7 @@ function toggleMenu() {
 
 
 
-fetch('json/temples.json')
+/*fetch('json/temples.json')
     .then(response => response.json())
     .then(
         response => {
@@ -74,14 +74,15 @@ fetch('json/temples.json')
         document.querySelector('#temple-name').textContent = 
             response[0].TempleName;
 
-
         response[0].Services.forEach(
             service => {
                 document.querySelector('#service').innerHTML +=
                     `${ service }`;
             }
         )
-
-
+        
+        document.querySelector('#street-line-1').textContent = 
+            response[0].StreetLine1;
         }
-    );
+    );*/
+
