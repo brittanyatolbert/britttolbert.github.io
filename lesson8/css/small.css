@@ -41,6 +41,11 @@ nav {
     margin-bottom: 3em;
 }
 
+#active {
+    background-color: #88bb99;
+    color: #324438;
+}
+
 table,
 tr,
 th,

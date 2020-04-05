@@ -50,6 +50,11 @@ td {
     padding: 10px;
 }
 
+#active {
+    background-color: #88bb99;
+    color: #324438;
+}
+
 
 .flex {
     display: flex;

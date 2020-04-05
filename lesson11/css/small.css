@@ -43,6 +43,11 @@
         margin-bottom: 3em;
     }
 
+    #active {
+        background-color: #88bb99;
+        color: #324438;
+    }
+
     table, tr, th, td{
         background-color: #324438;
         border-collapse: collapse;
