@@ -172,7 +172,7 @@ p {
 }
 
 #boxed{
-    box-shadow: 1px 5px 5px 5px darkgray;
+    box-shadow: 1px 5px 5px 5px #5f9591;
 }
 
 .grid {
@@ -183,7 +183,6 @@ p {
 /*CONTACT US PAGE*/
 
 #contact{
-    border-top: #5f9591 dotted 10px;
     border-radius: 15px;
     margin-top: 2rem;
     padding-top: 0.5rem;
@@ -250,7 +249,7 @@ p {
     margin-right: auto;
     text-align:center;
     border-radius: 15px;
-    box-shadow: 1px 5px 5px 5px darkgray;
+    box-shadow: 1px 5px 5px 5px #5f9591;
     padding: 10px;
     margin: 20px;
 }
