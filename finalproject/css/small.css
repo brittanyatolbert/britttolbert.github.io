@@ -63,6 +63,10 @@ section{
     border-radius: 15px;
 }
 
+li {
+    text-decoration: none;
+    list-style: none;
+}
 .landscape{
     margin-top: 0em;
     width: 100%;
