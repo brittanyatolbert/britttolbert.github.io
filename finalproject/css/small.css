@@ -29,8 +29,7 @@ header {
 
 
 .navigation a:hover {
-    color:white;
-    background-color:darkgray;
+    box-shadow: 1px 5px 5px 5px darkgray;
 }
 
 .responsive li {
@@ -57,6 +56,11 @@ nav a{
     font-family:'Raleway', sans-serif;
 }
 
+#active {
+    background-color: #dbdbdb;
+    color:white;
+}
+
 /* MAIN */
 
 section{
@@ -66,6 +70,8 @@ section{
 li {
     text-decoration: none;
     list-style: none;
+    font-family:'Raleway', sans-serif;
+    text-align: center;
 }
 .landscape{
     margin-top: 0em;
