@@ -27,8 +27,7 @@ fetch(apiURLWeather)
               }
 
 
-            // let imageURL = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
-            let imageURL = 'https://tiendzung96.github.io/cit230/super-accurate-weather/images/weather-icon/' + jsObject.weather[0].icon + '.png';
+           let imageURL = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
 
             document.querySelector('#weatherImage').setAttribute('src', imageURL);
 
@@ -70,8 +69,8 @@ fetch(apiURLWeather)
                 }
   
   
-              // let imageURL = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
-              let imageURL = 'https://tiendzung96.github.io/cit230/super-accurate-weather/images/weather-icon/' + jsObject.weather[0].icon + '.png';
+              let imageURL = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
+              
   
               document.querySelector('#weatherImage1').setAttribute('src', imageURL);
   
@@ -113,8 +112,7 @@ fetch(apiURLWeather)
                   }
     
     
-                // let imageURL = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
-                let imageURL = 'https://tiendzung96.github.io/cit230/super-accurate-weather/images/weather-icon/' + jsObject.weather[0].icon + '.png';
+                let imageURL = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
     
                 document.querySelector('#weatherImage2').setAttribute('src', imageURL);
     
@@ -156,8 +154,7 @@ fetch(apiURLWeather)
                     }
       
       
-                  // let imageURL = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
-                  let imageURL = 'https://tiendzung96.github.io/cit230/super-accurate-weather/images/weather-icon/' + jsObject.weather[0].icon + '.png';
+                  let imageURL = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
       
                   document.querySelector('#weatherImage3').setAttribute('src', imageURL);
       

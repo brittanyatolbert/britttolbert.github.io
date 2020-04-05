@@ -59,6 +59,10 @@ nav a{
 
 /* MAIN */
 
+section{
+    border-radius: 15px;
+}
+
 .landscape{
     margin-top: 0em;
     width: 100%;
@@ -144,6 +148,10 @@ p {
     padding: 1rem;
 }
 
+#boxed{
+    box-shadow: 1px 5px 5px 5px darkgray;
+}
+
 .grid {
     text-align: center;
     margin-bottom: 5rem;
@@ -153,6 +161,7 @@ p {
 
 #contact{
     border-top: #5f9591 dotted 10px;
+    border-radius: 15px;
     margin-top: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 3rem;
@@ -209,6 +218,7 @@ p {
 
 #templo{
     width: 400px;
+    margin: 2em;
 }
 
 .universe {
@@ -216,8 +226,11 @@ p {
     margin-left: auto;
     margin-right: auto;
     text-align:center;
+    border-radius: 15px;
+    box-shadow: 1px 5px 5px 5px darkgray;
+    padding: 10px;
+    margin: 20px;
 }
-
 
 #weather-summary{
     color: white;
