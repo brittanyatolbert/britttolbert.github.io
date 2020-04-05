@@ -1,7 +1,7 @@
 [
     {
         "TempleName":"Washington DC Temple",
-        "StreetLine1": "9900 Stoneybrook Dr",
+        "StreetLine1":"9900 Stoneybrook Dr",
         "StreetLine2": "",
         "City": "Kensington",
         "State": "Maryland",
@@ -10,10 +10,10 @@
         "Telephone": "301-588-0650",
         "Email": "",
         "Services": [
-            "NO clothing rental available",
-            "NO distribution center nearby",
-            "NO cafeteria food served",
-            "NO patron housing available"
+            "NO clothing rental available. ",
+            "NO distribution center nearby. ",
+            "NO cafeteria food served. ",
+            "NO patron housing available. "
         ],
         "History": [
             {
@@ -39,11 +39,11 @@
             }
         ],
         "TempleClosure": [
-            "Saturday, 4th of April 2020", 
-            "Tuesday, 23 June 2020 - Monday, 27th June 2020",
-            "Wednesday, 1st of August - Friday, 3rd of August 2020 ",
-            "Friday, 24th of November 2020",
-            "Monday, 25th of December 2020"
+            "Saturday, 4th of April 2020. ", 
+            "Tuesday, 23 June 2020 - Monday, 27th June 2020. ",
+            "Wednesday, 1st of August - Friday, 3rd of August 2020. ",
+            "Friday, 24th of November 2020. ",
+            "Monday, 25th of December 2020. "
         ]
     }, 
 
@@ -58,10 +58,10 @@
         "Telephone": "480-822-5000",
         "Email": "",
         "Services": [
-            "Clothing rental available",
-            "Distribution center nearby",
-            "NO cafeteria food served",
-            "NO patron housing available"
+            "Clothing rental available. ",
+            "Distribution center nearby. ",
+            "NO cafeteria food served. ",
+            "NO patron housing available. "
         ],
         "History": [
             {
@@ -87,11 +87,11 @@
             }
         ],
         "TempleClosure": [
-            "Saturday, 4th of April 2020", 
-            "Tuesday, 23 June 2020 - Monday, 27th June 2020",
-            "Wednesday, 1st of August - Friday, 3rd of August 2020 ",
-            "Friday, 24th of November 2020",
-            "Monday, 25th of December 2020"
+            "Saturday, 4th of April 2020. ", 
+            "Tuesday, 23 June 2020 - Monday, 27th June 2020. ",
+            "Wednesday, 1st of August - Friday, 3rd of August 2020. ",
+            "Friday, 24th of November 2020. ",
+            "Monday, 25th of December 2020."
         ]
     },
 
@@ -106,10 +106,10 @@
         "Telephone": "801-343-2700",
         "Email": "",
         "Services": [
-            "Clothing rental available",
-            "Distribution center nearby",
-            "NO cafeteria food served",
-            "NO patron housing available"
+            "Clothing rental available. ",
+            "Distribution center nearby. ",
+            "NO cafeteria food served. ",
+            "NO patron housing available."
         ],
         "History": [
             {
@@ -135,11 +135,11 @@
             }
         ],
         "TempleClosure": [
-            "Saturday, 4th of April 2020", 
-            "Tuesday, 23 June 2020 - Monday, 27th June 2020",
-            "Wednesday, 1st of August - Friday, 3rd of August 2020 ",
-            "Friday, 24th of November 2020",
-            "Monday, 25th of December 2020"
+            "Saturday, 4th of April 2020. ", 
+            "Tuesday, 23 June 2020 - Monday, 27th June 2020. ",
+            "Wednesday, 1st of August - Friday, 3rd of August 2020. ",
+            "Friday, 24th of November 2020. ",
+            "Monday, 25th of December 2020."
         ]
     },
 
@@ -154,10 +154,10 @@
         "Telephone": "(52) 55-5003-3700)",
         "Email": "",
         "Services": [
-            "Clothing rental available",
-            "Distribution center nearby",
-            "Cafeteria available",
-            "Patron housing available"
+            "Clothing rental available. ",
+            "Distribution center nearby. ",
+            "Cafeteria available. ",
+            "Patron housing available."
         ],
         "History": [
             {
@@ -183,11 +183,11 @@
             }
         ],
         "TempleClosure": [
-            "Saturday, 4th of April 2020", 
-            "Tuesday, 23 June 2020 - Monday, 27th June 2020",
-            "Wednesday, 1st of August - Friday, 3rd of August 2020 ",
-            "Friday, 24th of November 2020",
-            "Monday, 25th of December 2020"
+            "Saturday, 4th of April 2020. ", 
+            "Tuesday, 23 June 2020 - Monday, 27th June 2020. ",
+            "Wednesday, 1st of August - Friday, 3rd of August 2020. ",
+            "Friday, 24th of November 2020. ",
+            "Monday, 25th of December 2020."
         ]
     }
 
