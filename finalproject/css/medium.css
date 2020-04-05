@@ -34,6 +34,10 @@ nav a{
     grid-template-columns: 1fr 1fr;
 }
 
+#templo{
+    width: 400px;
+}
+
 /*RESERVE BUTTON*/
 
 #reserve a{
