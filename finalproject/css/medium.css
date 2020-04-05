@@ -2,9 +2,29 @@
 
  /* HEADER & NAV */
 
- .navigation li {
+nav a{
+    padding-right: 1em;
+    padding-left:1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    display: block;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    color: black;
+    margin-bottom:0em;
+}
+
+ .navigation {
+    display: flex;
+}
+.navigation li {
     display: block; /* needed because of state in small view */
     flex: 1 1 100%;
+}
+
+.navigation li:first-child {
+    display: none;
 }
 
 
@@ -12,6 +32,14 @@
 
  #hola{
     grid-template-columns: 1fr 1fr;
+}
+
+/*RESERVE BUTTON*/
+
+#reserve a{
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 45px;
 }
  
  /* FOOTER */

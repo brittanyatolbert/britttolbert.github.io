@@ -2,7 +2,12 @@
  
 /* HEADER & NAV */
 
-
+nav a{
+    padding-right: 2em;
+    padding-left:2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
 
 
  /* MAIN */ 
